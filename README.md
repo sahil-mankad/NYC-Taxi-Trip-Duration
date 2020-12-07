@@ -6,17 +6,17 @@ The Drive link for the dataset has been provided in the file dataset link.txt.
 
 Below is the description of some dataset attributes:
 
-id - a unique identifier for each trip
-vendor_id - a code indicating the provider associated with the trip record
-pickup_datetime - date and time when the meter was engaged
-dropoff_datetime - date and time when the meter was disengaged
-passenger_count - the number of passengers in the vehicle (driver entered value)
-pickup_longitude - the longitude where the meter was engaged
-pickup_latitude - the latitude where the meter was engaged
-dropoff_longitude - the longitude where the meter was disengaged
-dropoff_latitude - the latitude where the meter was disengaged
-store_and_fwd_flag - This flag indicates whether the trip record was held in vehicle memory before sending to the vendor because the vehicle did not have a connection to the server (Y=store and forward; N=not a store and forward trip)
-trip_duration - (target) duration of the trip in seconds
+1. id - a unique identifier for each trip
+2. vendor_id - a code indicating the provider associated with the trip record
+3. pickup_datetime - date and time when the meter was engaged
+4. dropoff_datetime - date and time when the meter was disengaged
+5. passenger_count - the number of passengers in the vehicle (driver entered value)
+6. pickup_longitude - the longitude where the meter was engaged
+7. pickup_latitude - the latitude where the meter was engaged
+8. dropoff_longitude - the longitude where the meter was disengaged
+9. dropoff_latitude - the latitude where the meter was disengaged
+10. store_and_fwd_flag - This flag indicates whether the trip record was held in vehicle memory before sending to the vendor because the vehicle did not have a connection to the 11. server (Y=store and forward; N=not a store and forward trip)
+12. trip_duration - (target) duration of the trip in seconds
 
 
 I have used 3 notebooks as a part of the solution:
